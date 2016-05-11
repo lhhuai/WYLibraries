@@ -9,10 +9,7 @@ Pod::Spec.new do |s|
   s.source                   = { :git => "#{s.homepage}.git", :tag => "#{s.version}" }
   s.requires_arc             = true
 
-  s.ios.deployment_target = '7.0'
-  s.osx.deployment_target = '10.9'
-  s.watchos.deployment_target = '2.0'
-  s.tvos.deployment_target = '9.0'
+  s.ios.deployment_target    = '5.0'
 
   s.subspec "WYFoundation" do |ss|
     ss.source_files = "WYLibraries/WYFoundation/*.{h,m}"
@@ -24,6 +21,7 @@ Pod::Spec.new do |s|
 
     ss.source_files = "WYLibraries/WYUIKit/*.{h,m}"
     ss.public_header_files = 'WYLibraries/WYUIKit/*.h'
+
   end
 
 end
