@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55069D741CE9A141008E617F /* NSString+WYChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D6E1CE9A141008E617F /* NSString+WYChecker.m */; };
+		55069D751CE9A141008E617F /* NSString+WYRichText.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D701CE9A141008E617F /* NSString+WYRichText.m */; };
+		55069D781CE9A2F5008E617F /* NSData+WYAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D771CE9A2F5008E617F /* NSData+WYAddition.m */; };
 		55FEA3B71CE2DF560099F877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FEA3B61CE2DF560099F877 /* main.m */; };
 		55FEA3BA1CE2DF560099F877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FEA3B91CE2DF560099F877 /* AppDelegate.m */; };
 		55FEA3BD1CE2DF560099F877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FEA3BC1CE2DF560099F877 /* ViewController.m */; };
 		55FEA3C01CE2DF560099F877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FEA3BE1CE2DF560099F877 /* Main.storyboard */; };
 		55FEA3C21CE2DF560099F877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FEA3C11CE2DF560099F877 /* Assets.xcassets */; };
 		55FEA3C51CE2DF560099F877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FEA3C31CE2DF560099F877 /* LaunchScreen.storyboard */; };
-		55FEA3D11CE2E0770099F877 /* NSString+WYRichText.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FEA3D01CE2E0770099F877 /* NSString+WYRichText.m */; };
 		55FEA3D61CE2E07D0099F877 /* UIColor+WYAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FEA3D31CE2E07D0099F877 /* UIColor+WYAddition.m */; };
 		55FEA3D71CE2E07D0099F877 /* UIView+WYLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FEA3D51CE2E07D0099F877 /* UIView+WYLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55069D6D1CE9A141008E617F /* NSString+WYChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WYChecker.h"; sourceTree = "<group>"; };
+		55069D6E1CE9A141008E617F /* NSString+WYChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WYChecker.m"; sourceTree = "<group>"; };
+		55069D6F1CE9A141008E617F /* NSString+WYRichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WYRichText.h"; sourceTree = "<group>"; };
+		55069D701CE9A141008E617F /* NSString+WYRichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WYRichText.m"; sourceTree = "<group>"; };
+		55069D761CE9A2F5008E617F /* NSData+WYAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WYAddition.h"; sourceTree = "<group>"; };
+		55069D771CE9A2F5008E617F /* NSData+WYAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WYAddition.m"; sourceTree = "<group>"; };
 		55FEA3B21CE2DF550099F877 /* WYLibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYLibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FEA3B61CE2DF560099F877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55FEA3B81CE2DF560099F877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +37,6 @@
 		55FEA3C11CE2DF560099F877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55FEA3C41CE2DF560099F877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FEA3C61CE2DF560099F877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55FEA3CF1CE2E0770099F877 /* NSString+WYRichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WYRichText.h"; sourceTree = "<group>"; };
-		55FEA3D01CE2E0770099F877 /* NSString+WYRichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WYRichText.m"; sourceTree = "<group>"; };
 		55FEA3D21CE2E07D0099F877 /* UIColor+WYAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WYAddition.h"; sourceTree = "<group>"; };
 		55FEA3D31CE2E07D0099F877 /* UIColor+WYAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WYAddition.m"; sourceTree = "<group>"; };
 		55FEA3D41CE2E07D0099F877 /* UIView+WYLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WYLayout.h"; sourceTree = "<group>"; };
@@ -49,6 +55,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55069D661CE9A141008E617F /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				55069D761CE9A2F5008E617F /* NSData+WYAddition.h */,
+				55069D771CE9A2F5008E617F /* NSData+WYAddition.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		55069D671CE9A141008E617F /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		55069D681CE9A141008E617F /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		55069D691CE9A141008E617F /* NSException */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSException;
+			sourceTree = "<group>";
+		};
+		55069D6A1CE9A141008E617F /* NSMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSMutableDictionary;
+			sourceTree = "<group>";
+		};
+		55069D6B1CE9A141008E617F /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		55069D6C1CE9A141008E617F /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				55069D6D1CE9A141008E617F /* NSString+WYChecker.h */,
+				55069D6E1CE9A141008E617F /* NSString+WYChecker.m */,
+				55069D6F1CE9A141008E617F /* NSString+WYRichText.h */,
+				55069D701CE9A141008E617F /* NSString+WYRichText.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		55069D711CE9A141008E617F /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSURL;
+			sourceTree = "<group>";
+		};
+		55069D721CE9A141008E617F /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		55069D731CE9A141008E617F /* NSValue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSValue;
+			sourceTree = "<group>";
+		};
 		55FEA3A91CE2DF550099F877 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +177,16 @@
 		55FEA3CC1CE2DFC00099F877 /* WYFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				55FEA3CF1CE2E0770099F877 /* NSString+WYRichText.h */,
-				55FEA3D01CE2E0770099F877 /* NSString+WYRichText.m */,
+				55069D661CE9A141008E617F /* NSData */,
+				55069D671CE9A141008E617F /* NSDate */,
+				55069D681CE9A141008E617F /* NSDictionary */,
+				55069D691CE9A141008E617F /* NSException */,
+				55069D6A1CE9A141008E617F /* NSMutableDictionary */,
+				55069D6B1CE9A141008E617F /* NSObject */,
+				55069D6C1CE9A141008E617F /* NSString */,
+				55069D711CE9A141008E617F /* NSURL */,
+				55069D721CE9A141008E617F /* NSUserDefaults */,
+				55069D731CE9A141008E617F /* NSValue */,
 			);
 			path = WYFoundation;
 			sourceTree = "<group>";
@@ -183,12 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55069D781CE9A2F5008E617F /* NSData+WYAddition.m in Sources */,
+				55069D741CE9A141008E617F /* NSString+WYChecker.m in Sources */,
 				55FEA3BD1CE2DF560099F877 /* ViewController.m in Sources */,
 				55FEA3D71CE2E07D0099F877 /* UIView+WYLayout.m in Sources */,
 				55FEA3BA1CE2DF560099F877 /* AppDelegate.m in Sources */,
 				55FEA3B71CE2DF560099F877 /* main.m in Sources */,
 				55FEA3D61CE2E07D0099F877 /* UIColor+WYAddition.m in Sources */,
-				55FEA3D11CE2E0770099F877 /* NSString+WYRichText.m in Sources */,
+				55069D751CE9A141008E617F /* NSString+WYRichText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

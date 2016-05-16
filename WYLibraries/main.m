@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "NSString+WYRegexKit.h"
+
+@interface XXObject : NSObject @end
+@implementation XXObject
++ (void)load {
+    NSLog(@"XXObject load");
+}
+@end
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+//        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        NSString *str = @"4414818507206471";
+        NSLog(@"%@", [str isValidateIDCardNumber] ? @"YES" : @"NO");
     }
 }
