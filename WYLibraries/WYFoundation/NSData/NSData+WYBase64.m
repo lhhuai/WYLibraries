@@ -6,9 +6,9 @@
 //  Copyright © 2016年 seaphy. All rights reserved.
 //
 
-#import "NSData+Base64.h"
+#import "NSData+WYBase64.h"
 
-@implementation NSData (Base64)
+@implementation NSData (WYBase64)
 
 + (NSData *)wy_base64DataFromString:(NSString *)string {
     unsigned long ixtext, lentext;

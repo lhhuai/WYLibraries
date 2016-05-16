@@ -10,7 +10,7 @@
 		55069D741CE9A141008E617F /* NSString+WYChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D6E1CE9A141008E617F /* NSString+WYChecker.m */; };
 		55069D751CE9A141008E617F /* NSString+WYRichText.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D701CE9A141008E617F /* NSString+WYRichText.m */; };
 		55069D781CE9A2F5008E617F /* NSData+WYAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D771CE9A2F5008E617F /* NSData+WYAddition.m */; };
-		55069D7B1CE9AE3B008E617F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D7A1CE9AE3B008E617F /* NSData+Base64.m */; };
+		55069D7B1CE9AE3B008E617F /* NSData+WYBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D7A1CE9AE3B008E617F /* NSData+WYBase64.m */; };
 		55069D7E1CE9AE70008E617F /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D7D1CE9AE70008E617F /* NSData+CommonCrypto.m */; };
 		55069D811CE9AF34008E617F /* NSDate+WYAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D801CE9AF34008E617F /* NSDate+WYAddition.m */; };
 		55069D8E1CE9D14A008E617F /* UIColor+WYAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 55069D861CE9D14A008E617F /* UIColor+WYAddition.m */; };
@@ -33,8 +33,8 @@
 		55069D701CE9A141008E617F /* NSString+WYRichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WYRichText.m"; sourceTree = "<group>"; };
 		55069D761CE9A2F5008E617F /* NSData+WYAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WYAddition.h"; sourceTree = "<group>"; };
 		55069D771CE9A2F5008E617F /* NSData+WYAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WYAddition.m"; sourceTree = "<group>"; };
-		55069D791CE9AE3B008E617F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		55069D7A1CE9AE3B008E617F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		55069D791CE9AE3B008E617F /* NSData+WYBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WYBase64.h"; sourceTree = "<group>"; };
+		55069D7A1CE9AE3B008E617F /* NSData+WYBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WYBase64.m"; sourceTree = "<group>"; };
 		55069D7C1CE9AE70008E617F /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
 		55069D7D1CE9AE70008E617F /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		55069D7F1CE9AF34008E617F /* NSDate+WYAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WYAddition.h"; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 			children = (
 				55069D761CE9A2F5008E617F /* NSData+WYAddition.h */,
 				55069D771CE9A2F5008E617F /* NSData+WYAddition.m */,
-				55069D791CE9AE3B008E617F /* NSData+Base64.h */,
-				55069D7A1CE9AE3B008E617F /* NSData+Base64.m */,
+				55069D791CE9AE3B008E617F /* NSData+WYBase64.h */,
+				55069D7A1CE9AE3B008E617F /* NSData+WYBase64.m */,
 				55069D7C1CE9AE70008E617F /* NSData+CommonCrypto.h */,
 				55069D7D1CE9AE70008E617F /* NSData+CommonCrypto.m */,
 			);
@@ -380,7 +380,7 @@
 				55069D981CE9E387008E617F /* NSValue+WYBlock.m in Sources */,
 				55FEA3B71CE2DF560099F877 /* main.m in Sources */,
 				55069D751CE9A141008E617F /* NSString+WYRichText.m in Sources */,
-				55069D7B1CE9AE3B008E617F /* NSData+Base64.m in Sources */,
+				55069D7B1CE9AE3B008E617F /* NSData+WYBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
