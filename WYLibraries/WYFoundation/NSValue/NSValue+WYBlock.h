@@ -1,5 +1,5 @@
 //
-//  NSData+WYAddition.h
+//  NSValue+WYBlock.h
 //  WYLibraries
 //
 //  Created by seaphy on 16/5/16.
@@ -8,10 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSData (WYAddition)
+@interface NSValue (WYBlock)
 
-- (NSString *)wy_hexRepresentation;
-
-- (NSData *)wy_dataByEncryptingUsingMD5;
++ (instancetype)wy_valueWithBlock:(id)block;
+- (id)wy_block;
 
 @end

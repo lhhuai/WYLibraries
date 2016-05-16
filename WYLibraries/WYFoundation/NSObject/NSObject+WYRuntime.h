@@ -1,5 +1,5 @@
 //
-//  NSData+WYAddition.h
+//  NSObject+WYRuntime.h
 //  WYLibraries
 //
 //  Created by seaphy on 16/5/16.
@@ -8,10 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSData (WYAddition)
-
-- (NSString *)wy_hexRepresentation;
-
-- (NSData *)wy_dataByEncryptingUsingMD5;
+@interface NSObject (WYRuntime)
 
 @end

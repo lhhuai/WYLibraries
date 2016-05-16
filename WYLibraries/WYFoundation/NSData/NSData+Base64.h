@@ -1,5 +1,5 @@
 //
-//  NSData+WYAddition.h
+//  NSData+Base64.h
 //  WYLibraries
 //
 //  Created by seaphy on 16/5/16.
@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSData (WYAddition)
+@interface NSData (Base64)
 
-- (NSString *)wy_hexRepresentation;
-
-- (NSData *)wy_dataByEncryptingUsingMD5;
++ (NSData *)wy_base64DataFromString:(NSString *)string;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  NSData+WYAddition.h
+//  NSMutableDictionary+WYAddition.h
 //  WYLibraries
 //
 //  Created by seaphy on 16/5/16.
@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSData (WYAddition)
+@interface NSMutableDictionary (WYAddition)
 
-- (NSString *)wy_hexRepresentation;
-
-- (NSData *)wy_dataByEncryptingUsingMD5;
+- (void)wy_safeSetObject:(id)anObject forKey:(id<NSCopying>)aKey;
 
 @end
