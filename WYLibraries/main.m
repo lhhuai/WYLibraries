@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-#import "NSString+WYRegexKit.h"
+#import "NSString+WYChecker.h"
 
 @interface XXObject : NSObject @end
 @implementation XXObject
