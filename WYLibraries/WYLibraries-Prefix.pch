@@ -1,0 +1,19 @@
+//
+//  WYLibrariesPrefix.pch
+//  WYLibraries
+//
+//  Created by seaphy on 16/5/17.
+//  Copyright © 2016年 seaphy. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+//    #import <Foundation/Foundation.h>
+//    #import <SystemConfiguration/SystemConfiguration.h>
+//    #import <CoreLocation/CoreLocation.h>
+//    #import <AudioToolbox/AudioToolbox.h>
+//#import "extobjc.h"
+//#import "SFConstant.h"
+
+#endif

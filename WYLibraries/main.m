@@ -10,17 +10,17 @@
 #import "AppDelegate.h"
 #import "NSString+WYChecker.h"
 
-@interface XXObject : NSObject @end
-@implementation XXObject
-+ (void)load {
-    NSLog(@"XXObject load");
-}
-@end
+//@interface XXObject : NSObject @end
+//@implementation XXObject
+//+ (void)load {
+//    NSLog(@"XXObject load");
+//}
+//@end
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-//        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-        NSString *str = @"4414818507206471";
-        NSLog(@"%@", [str isValidateIDCardNumber] ? @"YES" : @"NO");
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+//        NSString *str = @"4414818507206471";
+//        NSLog(@"%@", [str isValidateIDCardNumber] ? @"YES" : @"NO");
     }
 }
