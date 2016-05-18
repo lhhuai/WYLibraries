@@ -95,31 +95,20 @@
 }
 
 #pragma mark - line : top left bottom right
+- (WYLineView *)wy_addTopLineWithColor:(UIColor *)color {
+    WYLineView *line = [[WYLineView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, 1)];
+    line.color = color;
+    line.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    [self addSubview:line];
+    
+    return line;
+}
+
 - (WYLineView *)wy_addLeftLineWithColor:(UIColor *)color {
     WYLineView *line = [[WYLineView alloc] initWithFrame:CGRectMake(0, 0, 1, self.frame.size.height)];
     line.color = color;
     line.vertical = YES;
     line.autoresizingMask = UIViewAutoresizingFlexibleHeight;
-    [self addSubview:line];
-    
-    return line;
-}
-
-- (WYLineView *)wy_addRightLineWithColor:(UIColor *)color {
-    WYLineView *line = [[WYLineView alloc] initWithFrame:CGRectMake(self.frame.size.width - 1, 0, 1, self.frame.size.height)];
-    line.color = color;
-    line.vertical = YES;
-    line.alignment = WYLineViewAlignmentBottom;
-    line.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleLeftMargin;
-    [self addSubview:line];
-    
-    return line;
-}
-
-- (WYLineView *)wy_addTopLineWithColor:(UIColor *)color {
-    WYLineView *line = [[WYLineView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, 1)];
-    line.color = color;
-    line.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     [self addSubview:line];
     
     return line;
@@ -134,6 +123,17 @@
     line.color = color;
     line.alignment = WYLineViewAlignmentBottom;
     line.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
+    [self addSubview:line];
+    
+    return line;
+}
+
+- (WYLineView *)wy_addRightLineWithColor:(UIColor *)color {
+    WYLineView *line = [[WYLineView alloc] initWithFrame:CGRectMake(self.frame.size.width - 1, 0, 1, self.frame.size.height)];
+    line.color = color;
+    line.vertical = YES;
+    line.alignment = WYLineViewAlignmentBottom;
+    line.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleLeftMargin;
     [self addSubview:line];
     
     return line;

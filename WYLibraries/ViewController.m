@@ -19,6 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+//    self.view.backgroundColor = [UIColor blackColor];
+    
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(20, 100, 50, 30)];
     view.backgroundColor = [UIColor clearColor];
     [self.view addSubview:view];
@@ -31,10 +33,10 @@
     [view wy_addLeftLineWithColor:[UIColor yellowColor]];
     [view wy_addBottomLineWithColor:[UIColor greenColor]];
     [view wy_addRightLineWithColor:[UIColor blueColor]];
-    
-    [view wy_addTapListener:^{
-        NSLog(@"wy..");
-    }];
+//
+//    [view wy_addTapListener:^{
+//        NSLog(@"wy..");
+//    }];
 }
 
 - (void)didReceiveMemoryWarning {

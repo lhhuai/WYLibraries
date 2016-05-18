@@ -17,10 +17,10 @@
 - (void)wy_fitToShowAllSubviews;
 - (void)wy_removeAllSubviews;
 
-- (WYLineView *)wy_addLeftLineWithColor:(UIColor *)color;
-- (WYLineView *)wy_addRightLineWithColor:(UIColor *)color;
 - (WYLineView *)wy_addTopLineWithColor:(UIColor *)color;
+- (WYLineView *)wy_addLeftLineWithColor:(UIColor *)color;
 - (WYLineView *)wy_addBottomLineWithColor:(UIColor *)color;
+- (WYLineView *)wy_addRightLineWithColor:(UIColor *)color;
 
 - (void)wy_addTapListener:(void(^)())tapListener;
 - (void)wy_addTapListener:(void(^)())tapListener identifier:(NSString *)identifier;
