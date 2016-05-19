@@ -7,7 +7,7 @@
 //
 
 #import "NSString+WYUIAddition.h"
-#import "UIView+WYAddition.h"
+//#import "UIView+WYAddition.h"
 #import <CoreText/CoreText.h>
 
 @implementation NSString (WYUIAddition)
@@ -65,17 +65,17 @@
     return font;
 }
 
-- (UIImage *)wy_imageWithFont:(UIFont *)font textColor:(UIColor *)textColor {
-    CGSize textSize = [self wy_sizeWithFont:font];
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, textSize.width, textSize.height)];
-    label.backgroundColor = [UIColor clearColor];
-    label.opaque = NO;
-    label.textColor = textColor == nil ? [UIColor blackColor] : textColor;
-    label.font = font;
-    label.text = self;
-    
-    return [label wy_toImage];
-}
+//- (UIImage *)wy_imageWithFont:(UIFont *)font textColor:(UIColor *)textColor {
+//    CGSize textSize = [self wy_sizeWithFont:font];
+//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, textSize.width, textSize.height)];
+//    label.backgroundColor = [UIColor clearColor];
+//    label.opaque = NO;
+//    label.textColor = textColor == nil ? [UIColor blackColor] : textColor;
+//    label.font = font;
+//    label.text = self;
+//    
+//    return [label wy_toImage];
+//}
 
 + (int)wy_heightWithString:(NSString *)string font:(UIFont *)font color:(UIColor *)color width:(int)width {
     NSMutableAttributedString *titleStr = [[NSMutableAttributedString alloc] initWithString:string];
