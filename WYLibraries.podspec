@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                     = "WYLibraries"
-  s.version                  = "1.0.1"
+  s.version                  = "1.1.1"
   s.summary                  = "A few toolkit"
   s.platform                 = :ios
   s.license                  = { :type => 'Apache', :file => 'LICENSE' }
