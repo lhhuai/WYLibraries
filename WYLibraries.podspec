@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                     = "WYLibraries"
-  s.version                  = "1.1.2"
+  s.version                  = "1.1.3"
   s.summary                  = "A few toolkit"
   s.platform                 = :ios
   s.license                  = { :type => 'Apache', :file => 'LICENSE' }
@@ -12,15 +12,15 @@ Pod::Spec.new do |s|
   s.ios.deployment_target    = '5.0'
 
   s.subspec "WYFoundation" do |ss|
-    ss.source_files = "WYLibraries/WYFoundation/*.{h,m}"
-    ss.public_header_files = 'WYLibraries/WYFoundation/*.h'
+    ss.source_files = "WYLibraries/WYFoundation/*/*.{h,m}"
+    ss.public_header_files = 'WYLibraries/WYFoundation/*/*.h'
   end
 
   s.subspec "WYUIKit" do |ss|
     ss.dependency 'WYLibraries/WYFoundation'
 
-    ss.source_files = "WYLibraries/WYUIKit/*.{h,m}"
-    ss.public_header_files = 'WYLibraries/WYUIKit/*.h'
+    ss.source_files = "WYLibraries/WYUIKit/*/*.{h,m}"
+    ss.public_header_files = 'WYLibraries/WYUIKit/*/*.h'
 
   end
 
