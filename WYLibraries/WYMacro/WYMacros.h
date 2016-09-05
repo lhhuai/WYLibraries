@@ -13,4 +13,11 @@
 #define WY_MULTILINE_TEXTSIZE_MARGIN(text, font, maxSize, mode) [text length] > 0 ? [text boundingRectWithSize:maxSize options:(NSStringDrawingUsesLineFragmentOrigin) attributes:@{NSFontAttributeName:font, NSParagraphStyleAttributeName: paragraphStyle} context:nil].size : CGSizeZero;
 
 
+#ifdef DEBUG
+# define DLog(fmt, ...) NSLog((@"[file:%s]\n" "[function:%s]\n" "[line:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define DLog(...);
+#endif
+
+
 #endif /* WYMacros_h */

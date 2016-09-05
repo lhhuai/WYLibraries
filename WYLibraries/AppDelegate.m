@@ -17,6 +17,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    UIImage *mars = [UIImage imageNamed:@"one_key_top"];
+//    
+//    CGSize sz = [mars size];
+//    
+//    UIGraphicsBeginImageContextWithOptions(CGSizeMake(sz.width * 2, sz.height), NO, 0);
+//    
+//    [mars drawAtPoint:CGPointMake(0, 0)];
+//    
+//    [mars drawAtPoint:CGPointMake(sz.width, 0)];
+//    
+//    [mars drawAtPoint:CGPointMake(sz.width * 2, 0)];
+//    
+//    UIImage *im = UIGraphicsGetImageFromCurrentImageContext();
+//    
+//    UIGraphicsEndImageContext();
+//    
+//    UIImageView *iv = [[UIImageView alloc] initWithImage:im];
+//    
+//    [self.window.rootViewController.view addSubview:iv];
+//    
+//    iv.center = self.window.center;
+    
     return YES;
 }
 
